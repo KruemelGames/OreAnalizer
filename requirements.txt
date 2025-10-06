@@ -1,5 +1,0 @@
-# UI layer (optional; falls nicht gewünscht, kannst du dieses Paket entfernen)
-pywebview>=4,<6
-# Hotkeys (optional; nur falls Gaming-/Hotkey-Features genutzt werden)
-pynput>=1.7,<2
-numpy>=1.22
