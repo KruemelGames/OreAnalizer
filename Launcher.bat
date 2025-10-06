@@ -7,7 +7,6 @@ echo %DATE% %TIME%  Launcher gestartet > "%LOG%"
 set "ROOT=%~dp0"
 cd /d "%ROOT%"
 set "MAIN_PY=%ROOT%main.py"
-echo [INFO] Arbeitsverzeichnis: %ROOT%
 set "PYEXE="
 where py >NUL 2>&1 && (py -3.13 -c "print(1)" >NUL 2>&1) && set "PYEXE=py -3.13"
 if not defined PYEXE ( where py >NUL 2>&1 && set "PYEXE=py -3" )
