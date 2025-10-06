@@ -12,8 +12,12 @@ class ScansStore:
         path = self._file(system)
         if not os.path.exists(path):
             return []
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except (json.JSONDecodeError, OSError) as e:
+            logger.error(f"Fehler beim Laden von {path}: {e}")
+            return []
     def append_record(self, value: int, system: str, details: Dict[str, Any]):
         data = self.read_all(system)
         data.append({"timestamp": time.time(), "system": system, "input_value": value, "details": details})

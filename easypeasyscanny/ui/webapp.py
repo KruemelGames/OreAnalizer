@@ -2,7 +2,7 @@ try:
     import webview
 except ImportError:
     webview = None
-from .infra.logger import get_logger
+from ..infra.logger import get_logger
 logger = get_logger(__name__)
 class Api:
     def __init__(self, settings, on_change_system, on_toggle_debug):
