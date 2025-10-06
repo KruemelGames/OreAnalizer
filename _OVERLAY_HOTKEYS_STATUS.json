@@ -1,0 +1,5 @@
+{
+  "returncode": 1,
+  "stdout_tail": "[ERROR] webview nicht installiert! Installiere mit: pip install pywebview\n[INFO] pynput nicht installiert - Gaming-Modus nicht verfügbar\n",
+  "stderr_tail": "Traceback (most recent call last):\n  File \"/mnt/data/EasyPeasyScanny_feature_sliced/main.py\", line 16, in <module>\n    main()\n  File \"/mnt/data/EasyPeasyScanny_feature_sliced/main.py\", line 13, in main\n    run_webapp(analyzer, APP_NAME)\n  File \"/mnt/data/EasyPeasyScanny_feature_sliced/easypeasyscanny/infra/hotkeys.py\", line 6, in run_webapp\n    if webview is None:\n       ^^^^^^^\nNameError: name 'webview' is not defined\n"
+}

@@ -1,0 +1,11 @@
+{
+  "big_py": "EasyPeasyScanny/sda.py",
+  "mappings": {
+    "ui_webview->ui/webapp.py": true,
+    "hotkeys->ui/webapp.py": false,
+    "scoring->scans/analyzer.py": false,
+    "file_io->scans/store.py": false,
+    "config->config.py": false,
+    "overlay->ui/webapp.py": false
+  }
+}

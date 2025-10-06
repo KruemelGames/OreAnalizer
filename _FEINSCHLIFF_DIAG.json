@@ -1,0 +1,28 @@
+{
+  "markers": {
+    "easypeasyscanny/ui/webapp.py": {
+      "migrated_blocks": 1,
+      "size": 109790
+    },
+    "easypeasyscanny/scans/analyzer.py": {
+      "migrated_blocks": 0,
+      "size": 1122
+    },
+    "easypeasyscanny/scans/store.py": {
+      "migrated_blocks": 0,
+      "size": 904
+    },
+    "easypeasyscanny/config.py": {
+      "migrated_blocks": 0,
+      "size": 678
+    },
+    "easypeasyscanny/rocks/store.py": {
+      "migrated_blocks": 0,
+      "size": 581
+    }
+  },
+  "compile_errors": [],
+  "run_returncode": 1,
+  "stdout_tail": "[ERROR] webview nicht installiert! Installiere mit: pip install pywebview\n[INFO] pynput nicht installiert - Gaming-Modus nicht verfügbar\n",
+  "stderr_tail": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/data/EasyPeasyScanny_feature_sliced/easypeasyscanny/rocks/store.py\", line 9, in __init__\n    self._rocks: List[Rock] = self._load()\n                              ^^^^^^^^^^^^\n  File \"/mnt/data/EasyPeasyScanny_feature_sliced/easypeasyscanny/rocks/store.py\", line 12, in _load\n    with open(self.path, \"r\", encoding=\"utf-8\") as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'rocks.json'\n"
+}

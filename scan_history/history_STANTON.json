@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": 1759664308.6978748,
+    "system": "STANTON",
+    "rock_id": null,
+    "composition": {
+      "Quantanium": 0.4,
+      "Inert": 0.6
+    },
+    "score": 2.6
+  },
+  {
+    "timestamp": 1759664702.2650433,
+    "system": "STANTON",
+    "rock_id": null,
+    "composition": {
+      "Quantanium": 0.4,
+      "Inert": 0.6
+    },
+    "score": 2.6
+  }
+]
