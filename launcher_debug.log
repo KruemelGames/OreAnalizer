@@ -1,0 +1,20 @@
+11.10.2025 12:21:34,98 - Launcher gestartet 
+11.10.2025 12:21:35,00 - Pfad-Erkennung OK 
+11.10.2025 12:21:35,00 - Arbeitsverzeichnis gesetzt 
+11.10.2025 12:21:35,00 - Starte Python-Check 
+11.10.2025 12:21:35,20 - Python gefunden 
+11.10.2025 12:21:35,20 - Starte Datei-Check 
+11.10.2025 12:21:35,20 - mining_analyzer.py gefunden 
+11.10.2025 12:21:35,20 - Starte Webview-Check 
+11.10.2025 12:21:35,61 - pywebview nicht gefunden, starte Installation 
+11.10.2025 12:21:35,61 - pywebview installiert 
+11.10.2025 12:21:39,36 - pywebview bereits verfuegbar 
+11.10.2025 12:21:39,37 - Starte Standard-Module-Check 
+11.10.2025 12:21:39,52 - Standard-Module verfuegbar 
+11.10.2025 12:21:39,52 - Starte Gaming-Features-Check 
+11.10.2025 12:21:39,77 - pynput bereits verfuegbar 
+11.10.2025 12:21:39,77 - Gaming-Features-Check abgeschlossen 
+11.10.2025 12:21:39,78 - Alle Checks abgeschlossen 
+11.10.2025 12:21:39,80 - Starte Countdown 
+11.10.2025 12:21:42,15 - Starte Python-Programm 
+11.10.2025 12:21:42,22 - Programm im Hintergrund gestartet 
